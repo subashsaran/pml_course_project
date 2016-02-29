@@ -5,11 +5,17 @@ date: "29 February 2016"
 output: html_document
 ---
 # Quantified Self Movement Data Prediction
-
+```{r global_options, include=FALSE}
+library(knitr)
+opts_chunk$set(fig.width=10, fig.height=10)
+```
 ## Introduction  
 Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible to collect a large amount of data about personal activity relatively inexpensively. These type of devices are part of the quantified self movement - a group of enthusiasts who take measurements about themselves regularly to improve their health, to find patterns in their behavior, or because they are tech geeks. One thing that people regularly do is quantify how much of a particular activity they do, but they rarely quantify how well they do it.  
 
-In this project, we will use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants to predict the manner in which they did the exercise.  
+In this project, we will use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants to predict the manner in which they did the exercise. 
+
+## Github link of this project
+[Click here](https://github.com/subashsaran/pml_course_project) for the link to the github repository containing your .Rmd and a compiled HTML file performing this analysis. 
 
 ## Data Preprocessing  
 ```{r, cache = T, warning=FALSE, message=FALSE}
